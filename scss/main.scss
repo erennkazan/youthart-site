@@ -1,0 +1,10 @@
+@import "config/variable";
+@import "config/mixin";
+//
+@import "helper/normalize";
+@import "helper/global";
+//
+@import "global/header";
+@import "global/navigation";
+
+@import "scss/pages/index.scss";
