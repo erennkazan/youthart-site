@@ -26,7 +26,7 @@ gulp.task('browser-sync', function () {
     }
   })
   gulp.watch('./*.html').on('change', reload) /*html değiştiğinde reload yapar */
-  gulp.watch('./scss/*.scss').on('change', reload); /*css değiştiğinde */
+  gulp.watch('./scss/*.scss').on('change', reload) /*css değiştiğinde */
   gulp.watch('./views/**/*.pug', gulp.series('html'))
   gulp.watch('./scss/**/*.scss', gulp.series('css'))
   gulp.watch('./js/**/*.js', reload)
