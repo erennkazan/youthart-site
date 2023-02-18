@@ -315,12 +315,17 @@ body {
 body a {
   text-decoration: none;
 }
+body ul {
+  list-style: none;
+}
 
 .Upper-header {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin: auto;
+  padding: auto;
 }
 .Upper-header .container {
   background-color: #F2F3F5;
@@ -329,6 +334,7 @@ body a {
   justify-content: space-around;
   align-items: center;
   width: 1200px;
+  margin: auto;
 }
 
 .Upper-info {
@@ -375,7 +381,6 @@ body a {
 }
 .Upper-info .social ul {
   display: flex;
-  list-style: none;
 }
 .Upper-info .social ul li {
   display: flex;
@@ -390,4 +395,59 @@ body a {
 }
 .Upper-info .social ul li a i {
   font-size: 20px;
+}
+
+.Header {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.Header-container {
+  width: 1200px;
+  background-color: white;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 220px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.vehicles {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.vehicles ul {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.vehicles ul li a {
+  margin-left: 30px;
+}
+
+.main-page {
+  color: #F07D00;
+}
+
+.main-element {
+  color: #9A9EA8;
+}
+
+.main-element:hover {
+  color: #F07D00;
 }

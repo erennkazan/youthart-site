@@ -3,7 +3,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    
+    margin: auto;
+    padding: auto;
     .container{
         background-color: #F2F3F5;
         height: 36px;
@@ -11,11 +12,12 @@
         justify-content: space-around;
         align-items: center;
         width: 1200px;
+        margin: auto;
         }
 }
 .Upper-info{
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     height: 36px;
     
     .login{
@@ -56,16 +58,12 @@
         margin-left: 50px;
         ul{
             display: flex;
-            list-style: none;  
-            
-          
             li{
                 display: flex;
                 align-items: center;
                 text-align: center;
                 width: 40px;
                 height: 36px;
-                
                 a{
                     margin: auto;
                     color: $color-text;
@@ -79,5 +77,50 @@
     }
    
 }
+.Header{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.Header-container{
+    width: 1200px;
+    background-color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
- 
+}
+.logo{
+    margin-left: 50px;
+}
+.logo img{
+    width: 220px;
+    height: 80px;
+    margin-left: 20px;
+}
+.vehicles{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    
+}
+.vehicles ul{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.vehicles ul li a{
+    margin-left: 30px;
+}
+.main-page{
+    color: $color-orange;
+}
+.main-element{
+    color: $color-text;
+}
+.main-element:hover{
+    color: $color-orange;
+}
