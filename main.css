@@ -456,6 +456,7 @@ body ul {
   width: 1200px;
   margin: auto;
   display: flex;
+  flex-direction: column;
   background-color: #fff;
 }
 
@@ -484,7 +485,7 @@ body ul {
   flex-direction: column;
   text-align: center;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 20px;
 }
 
@@ -505,4 +506,16 @@ body ul {
 .main-info-img {
   color: #9DC52D;
   margin-bottom: 15px;
+}
+
+.main-header {
+  display: flex;
+  background-color: red;
+}
+
+.main-header-element ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
