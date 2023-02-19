@@ -58,13 +58,27 @@
     color: $color-yellow;
     margin-bottom: 15px;
 }
-.main-header{  
+.main-header{ 
     display: flex;
-    background-color: red;
+    margin: auto;
+    width: 1000px;
+}
+.main-header-element{
+    width: 1200px;
+    background-color: $color-yellow;
 }
 .main-header-element ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.element-text{
+    color: #fff;
+    padding-left: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
