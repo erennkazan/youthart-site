@@ -60,6 +60,7 @@
 }
 .main-header{ 
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     width: 1050px;
 }
@@ -81,4 +82,23 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.header-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.slider-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: start;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.slider-box-two{
+    display: flex;
+    flex-wrap: wrap;
 }
