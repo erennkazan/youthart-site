@@ -511,11 +511,11 @@ body ul {
 .main-header {
   display: flex;
   margin: auto;
-  width: 1000px;
+  width: 1050px;
 }
 
 .main-header-element {
-  width: 1200px;
+  width: 1050px;
   background-color: #9DC52D;
 }
 
