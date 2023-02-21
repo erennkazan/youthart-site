@@ -575,7 +575,13 @@ body ul {
   margin: 0px 2px;
   background: #9DC52D;
   display: inline-block;
+  color: #676f7c;
+  opacity: 0.7;
+}
+
+.tab:hover {
   color: #fff;
+  transition: 0.2s;
 }
 
 .panels {
@@ -635,4 +641,23 @@ body ul {
 
 .panel-row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #9DC52D;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
 }

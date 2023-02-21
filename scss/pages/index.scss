@@ -119,7 +119,12 @@
   margin:0px 2px;
   background: $color-yellow;
   display:inline-block;
-  color:#fff;
+  color: #676f7c;
+  opacity: .7;
+}
+.tab:hover{
+    color: #fff;
+    transition: .2s;
 }
 .panels{
   background:#fffffff6;
@@ -171,4 +176,25 @@
 }
 .panel-row{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: $color-yellow;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.notice:hover{
+    
 }
