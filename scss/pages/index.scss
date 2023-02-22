@@ -156,7 +156,7 @@
     align-items: center;
     text-align: center;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 70px;
     width: 200px;
     height: 40px;
     border: none;
@@ -172,6 +172,13 @@
 .main-footer{
     max-width: 1000px;
     margin: auto;
+    margin-top: 20px;
+}
+.main-footer h1{
+    margin-left: 300px;
+    font-weight: bold;
+    color: #434955;
+
 }
 .main-footer-project{
     display: flex;
@@ -186,5 +193,15 @@
     display: flex;
 }
 .left{
-    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.left-text{
+    color: $color-text-grey;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.left-text-small{
+    color: #C0C4C9;
+    font-size: $font-size-small;
 }
