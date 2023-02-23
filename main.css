@@ -662,17 +662,17 @@ body ul {
 }
 
 .left {
-  margin-bottom: 20px;
   margin-left: 30px;
 }
 
 .left-text {
-  color: #AEB0B6;
-  font-size: 22px;
-  margin-top: 20px;
+  color: #434955;
+  font-size: 26px;
 }
 
 .left-text-small {
-  color: #C0C4C9;
-  font-size: 0.8em;
+  color: #434955;
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0.8;
 }
