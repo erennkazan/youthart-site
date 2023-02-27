@@ -21,6 +21,7 @@
     width: auto;
     margin-top: 50px;
     padding-left: 50px;
+    height:300px;
 }
 .main-info-element{
     display: flex;
@@ -38,7 +39,7 @@
     text-align: center;
     color: black;
     font-weight:400;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .main-info-link:hover{
@@ -210,4 +211,8 @@
     font-size: 18px;
     margin-top: 10px;
     opacity: .8;
+}
+.main-footer-btn{
+    display: flex;
+    margin: auto;
 }
