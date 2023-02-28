@@ -470,6 +470,24 @@ body ul {
   font-size: 4rem;
 }
 
+.navigation-footer-container {
+  background-color: #fff;
+  width: 1200px;
+  margin: auto;
+}
+
+.navigation-footer-about {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.nav-about {
+  color: #444A56;
+  font-size: 2rem;
+  padding-left: 40px;
+}
+
 .main-page {
   color: #F07D00;
 }
