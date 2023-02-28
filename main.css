@@ -440,6 +440,36 @@ body ul {
   margin-left: 30px;
 }
 
+.navigation {
+  margin: auto;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation-number {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.number-one {
+  margin: 30px;
+}
+
+.number-first {
+  color: #444A56;
+  font-size: 4rem;
+}
+
+.number-select {
+  color: #9DC52D;
+  font-size: 4rem;
+}
+
 .main-page {
   color: #F07D00;
 }
@@ -691,6 +721,7 @@ body ul {
   margin: auto;
   width: 250px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .main-footer-button {
