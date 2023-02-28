@@ -473,6 +473,7 @@ body ul {
 .navigation-footer-container {
   background-color: #fff;
   width: 1200px;
+  height: 100vh;
   margin: auto;
 }
 
@@ -493,7 +494,7 @@ body ul {
   margin: auto;
   padding-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -522,6 +523,59 @@ body ul {
 
 .comment-location {
   color: #BBC1CA;
+}
+
+.navigation-member {
+  margin-top: 50px;
+  background-color: #9DC52D;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.member-text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.member-button {
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 300px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.navigation-video {
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-container {
+  margin: auto;
+  width: 1200px;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.footer-about {
+  width: 1000px;
+  margin: auto;
+  color: rgb(255, 104, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .main-page {
