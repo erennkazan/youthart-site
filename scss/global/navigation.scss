@@ -37,3 +37,37 @@
     font-size: 2rem;
     padding-left: 40px;
 }
+.navigation-footer-comment{
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment-one{
+    margin-left: 10px;
+    border: 2px solid #BBC1CA;
+    border-radius: 7px;
+    padding: 20px;
+    width: 500px;
+    height: 230px;
+    color: #68707D;
+    letter-spacing: 1.1px;
+    font-size: 1.2rem;
+}
+.comment-one:hover{
+    border: 2px solid $color-yellow;
+    transition: .8s;
+}
+.comment-name{
+    padding-right: 10px;
+    font-weight: bold;
+    color: #68707D;
+}
+.comment-location{
+    color: #BBC1CA;
+}
+.navigation-footer-right{
+
+}
