@@ -43,9 +43,13 @@
     font-size: 18px;
     
 }
+.main-info-element a{
+    text-decoration: none;
+}
 .main-info-link:hover{
     color:$color-yellow;
     transition: .3s;
+
 }
 
 .main-info-text{
@@ -161,16 +165,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto;
-    margin-top: 70px;
+    margin: 70px auto;
     width: 200px;
     height: 40px;
     border: none;
     background-color: $color-yellow;
-    color: #fff;
-    border-radius: 3px;
+    color: $color-white;
+    border-radius: $border-radius;
     font-weight: bold;
-    cursor: pointer;
+    cursor: $gutter;
 }
 .notice:hover{
     background-color: #80a123;

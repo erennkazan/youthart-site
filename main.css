@@ -353,6 +353,7 @@ body ul {
 .Upper-info .login span, .Upper-info .login i, .Upper-info .login a {
   margin-left: 15px;
   color: #9A9EA8;
+  text-decoration: none;
 }
 .Upper-info .login p {
   margin-left: 5px;
@@ -438,6 +439,7 @@ body ul {
 
 .vehicles ul li a {
   margin-left: 30px;
+  text-decoration: none;
 }
 
 .navigation {
@@ -473,7 +475,7 @@ body ul {
 .navigation-footer-container {
   background-color: #fff;
   width: 1200px;
-  height: 100vh;
+  height: 100%;
   margin: auto;
 }
 
@@ -564,7 +566,6 @@ body ul {
   margin: auto;
   width: 1200px;
   background-color: #fff;
-  height: 100vh;
 }
 
 .footer-about {
@@ -576,6 +577,47 @@ body ul {
   align-items: center;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.footer-about span {
+  margin-top: 50px;
+}
+
+.footer-header {
+  margin: auto;
+  width: 1000px;
+}
+
+.footer-header nav {
+  background-color: #F2F3F5;
+}
+
+.footer-header nav div {
+  height: 60px;
+  margin-top: 30px;
+}
+
+.footer-header nav div button::-moz-selection {
+  color: #9DC52D;
+}
+
+.footer-header nav div button::selection {
+  color: #9DC52D;
+}
+
+.footer-header-first {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #68707D;
+}
+
+.footer-header-first-text {
+  color: #68707D;
+}
+
+.footer-header-first-text a {
+  color: #9DC52D;
 }
 
 .main-page {
@@ -626,6 +668,10 @@ body ul {
   color: black;
   font-weight: 400;
   font-size: 18px;
+}
+
+.main-info-element a {
+  text-decoration: none;
 }
 
 .main-info-link:hover {
@@ -763,8 +809,7 @@ body ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: auto;
-  margin-top: 70px;
+  margin: 70px auto;
   width: 200px;
   height: 40px;
   border: none;
@@ -772,7 +817,7 @@ body ul {
   color: #fff;
   border-radius: 3px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: 20px;
 }
 
 .notice:hover {
