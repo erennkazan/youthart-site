@@ -1,10 +1,10 @@
-@import "config/variable";
-@import "config/mixin";
+@import "sass/config/variable";
+@import "sass/config/mixin";
 //
-@import "helper/normalize";
-@import "helper/global";
+@import "sass/helper/normalize";
+@import "sass/helper/global";
 //
-@import "global/header";
-@import "global/navigation";
+@import "sass/global/header";
+@import "sass/global/navigation";
 
-@import "scss/pages/index.scss";
+@import "sass/pages/index.scss";
